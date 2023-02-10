@@ -10,6 +10,8 @@
 body {
     background-color: #DCD0FF;
     font-family: 'Poppins', sans-serif;
+    min-height: 100vh; margin:0;
+    display:flex; flex-direction:column;
     } 
 
 h1.space {
@@ -102,7 +104,7 @@ h1.space {
     }
 
 .navbar ul li {
-    margin: 40px;
+    margin: 35px;
     }
 
 /*FLEX BOX COMPONENTS*/
@@ -134,7 +136,10 @@ h1.space {
     flex: 2;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 500px) {
+    .navbar {
+        flex-direction: row;
+    }
     .comp {
         flex-direction: row;
     }
@@ -143,14 +148,13 @@ h1.space {
     }
 }
 
-/*FOOTER*/
-.footer {
+/*FOOTER STYLING*/
+header{min-height:50px;}
+article{ flex:1; } /* The article fills all the space between header & footer */
+footer {
     border-top: 1.5px solid #55076c;
     text-align: center;
     padding: 20px;
     font-size: small;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-    height: 60px;
+    min-height:50px;
 }
