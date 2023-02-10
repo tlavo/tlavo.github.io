@@ -148,9 +148,19 @@ h1.space {
     }
 }
 
+@media screen and (min-width : 750px) {
+    .comp_item--start{float:left;width:60%;}
+    .comp_item--end{float:right;width:35%}
+} 
+     
+@media screen and (min-width : 481px) and (max-width : 749px) {
+    .comp_item--start{width:95%;}
+    .comp_item--end{width:95%;}    
+}
+
 /*FOOTER STYLING*/
-header{min-height:50px;}
-article{ flex:1; } /* The article fills all the space between header & footer */
+header {min-height:50px;}
+article { flex:1; } /* The article fills all the space between header & footer */
 footer {
     border-top: 1.5px solid #55076c;
     text-align: center;
