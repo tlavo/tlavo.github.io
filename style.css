@@ -137,7 +137,7 @@ h1.space {
     flex: 2;
 }
 
-@media (min-width: 500px) {
+@media (min-width: 800px) {
     .navbar {
         flex-direction: row;
     }
