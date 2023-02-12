@@ -101,11 +101,12 @@ h1.space {
 
 .navbar ul {
     display: flex;
+    overflow: auto; 
     }
 
 .navbar ul li {
-    margin: 35px;
-    }
+    margin: 30px;
+    }        
 
 /*FLEX BOX COMPONENTS*/
 .comp {
@@ -143,19 +144,6 @@ h1.space {
     .comp {
         flex-direction: row;
     }
-    .footer {
-        flex-direction: row;
-    }
-}
-
-@media screen and (min-width : 750px) {
-    .comp_item--start{float:left;width:60%;}
-    .comp_item--end{float:right;width:35%}
-} 
-     
-@media screen and (min-width : 481px) and (max-width : 749px) {
-    .comp_item--start{width:95%;}
-    .comp_item--end{width:95%;}    
 }
 
 /*FOOTER STYLING*/
