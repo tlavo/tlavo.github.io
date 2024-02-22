@@ -38,6 +38,7 @@ h2.space {
 }
 
 h2.space2 {
+    margin-top: 20px;
     margin-bottom: 20px;
 }
 
@@ -72,7 +73,7 @@ h4 {
 
 .column_skills {
     float: left;
-    width: 20%;
+    width: 30%;
 }
 
 .column_education {
